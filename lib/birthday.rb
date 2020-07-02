@@ -9,7 +9,7 @@ def happy_birthday(birthday_kids)
   
   message = ""
   birthday_kids.each do |name, number|
-    message = " Happy Birthday #{name}! You are #{number} years old!"
+    message = "Happy Birthday #{name}! You are #{number} years old!"
   end 
   message 
   
