@@ -8,6 +8,7 @@ def happy_birthday(birthday_kids)
   
   birthday_kids.each do |kids_name, age|
     message =  "Happy Birthday #{kids_name}! You are now #{age} years old!"
+    puts message 
   end 
 
 end
